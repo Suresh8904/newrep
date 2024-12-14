@@ -7,8 +7,6 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Suresh8904/newrep.git'
             }
         }
-    }
-    stages{
         stage ('Build')
         {
             steps {
